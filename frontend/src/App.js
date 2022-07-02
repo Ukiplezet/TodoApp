@@ -8,7 +8,7 @@ import NotePage from "./pages/NotePage";
 function App() {
   return (
     <Router>
-      <div className="Container dark">
+      <div className="container dark">
         <div className="app">
           <Header />
           <Route path="/" exact component={NotesListPage} />

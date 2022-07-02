@@ -39,6 +39,7 @@
   display: none;
 }
 body {
+  background-image: url("./images/images.jpg");
   line-height: 1.8em;
   font-weight: 400;
   font-size: 16px;
@@ -51,7 +52,7 @@ a {
 /* APP STYLES */
 
 .container {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   color: var(--color-text);
   background-color: var(--color-bg);
@@ -62,7 +63,7 @@ a {
 .app {
   width: 100%;
   max-width: 600px;
-  height: 100vh;
+  height: 100%;
   margin: 0 auto;
   background-color: var(--color-white);
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.05);
@@ -241,6 +242,7 @@ a {
   border: none;
   font-size: 25px;
   width: 90%;
+  padding-bottom: 50px;
   background-color: var(--color-white);
   margin-left: 10px;
 }

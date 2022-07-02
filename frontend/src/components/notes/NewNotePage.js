@@ -49,7 +49,7 @@ const NewNotePage = ({ match, history }) => {
           </Button>
         </div>
       </div>
-      <div>
+      <div className="new-note-form">
         <Row>
           <Form className="mx-1">
             <FloatingLabel
